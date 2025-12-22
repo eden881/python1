@@ -14,7 +14,7 @@ In the project's directory:
 docker build -t python1 .
 
 # Or pull a pre-built image:
-docker pull eden881/python1:1.6.1
+docker pull ghcr.io/eden881/python1:1.6.1
 ```
 
 Then run it with:
@@ -23,7 +23,7 @@ Then run it with:
 docker run --rm -it python1
 
 # Or if you pulled the image:
-docker run --rm -it eden881/python1:1.6.1
+docker run --rm -it ghcr.io/eden881/python1:1.6.1
 ```
 
 You can check whether it's 32 or 64 bit like this:

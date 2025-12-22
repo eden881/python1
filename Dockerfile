@@ -1,4 +1,5 @@
 FROM debian/eol:squeeze
+LABEL org.opencontainers.image.source="https://github.com/eden881/python1"
 
 RUN apt-get update && apt-get install -y build-essential
 ADD https://legacy.python.org/download/releases/1.6.1/Python-1.6.1.tar.gz /build/
